@@ -33,7 +33,7 @@ class gui:
 		## ==== RIF/RII
 		self.nature = widgets.Dropdown(
     		options = ['RIF','RII'],
-    		value = 'RIF',
+    		value = 'RII',
     		description = 'Nature :',
     		continuous_update = False,
 		)
@@ -49,7 +49,7 @@ class gui:
 
 		## ==== Ordre du filtre
 		self.ordre = widgets.Text(
-			value = "10",
+			value = "3",
 			description = "Ordre",
 			continuous_update = False,
 		)
@@ -66,7 +66,7 @@ class gui:
 
 		## ==== Fréquence(s) de coupure
 		self.coupure = widgets.Text(
-			value = "1000",
+			value = "150",
 			description = "Fc (Hz)",
 			continuous_update = False,
 		)
